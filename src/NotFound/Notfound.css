@@ -1,0 +1,14 @@
+.containerr{
+    height: 80vh;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+h1{
+    color: brown;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 800;
+}
+}

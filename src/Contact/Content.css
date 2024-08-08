@@ -1,0 +1,48 @@
+.Content{
+    height: 80vh;
+    background-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    h1{
+        color: #2c3e50;
+        font-size: 2.5rem;
+        font-weight: 700;
+        /* margin-bottom: 5%; */
+    }
+    p{
+        font-weight: 500;
+    }
+    button{
+        margin-left: auto;
+        background-color: #1abc9c;
+        border-radius: 5px;
+        padding: 8px;
+    }
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    input{
+        padding: 5px;
+        color: black;
+        background-color: white;
+        margin: 25px;
+        border-radius: 6px;
+        width: 50%;
+        box-shadow: 0px 0.5px 0.11px rgba(0, 0, 0, 0.244);
+    }
+    input[type=text]:focus-visible{
+        outline: none;
+    }
+}
+.divIvon{
+    font-size: 20px;
+    color: #2c3e50;
+    justify-content: center;
+}
+.line{
+    width: 80px;
+    height: 4px;
+    background-color: #2c3e50;
+}

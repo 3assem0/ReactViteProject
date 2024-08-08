@@ -1,0 +1,68 @@
+.Portofolio{
+    height: 100%;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding-bottom: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    h1{
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #2c3e50;
+    }
+    p{
+        font-weight: 500;
+    }
+}
+.divIvon{
+    font-size: 20px;
+}
+.line{
+    width: 80px;
+    height: 4px;
+}
+.container{
+    flex-wrap: wrap;
+}
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    border-radius: 12px ;
+    background-color: #1abc9ce6;
+  }
+  .text {
+    color: white;
+    font-size: 10rem;
+    font-family: cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    cursor: pointer;
+  }
+.windo{
+    position: relative;
+    width:28%;
+    img{
+        border-radius: 12px ;
+    }
+    
+}
+.windo:hover .overlay {
+    opacity: 1;
+}

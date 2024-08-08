@@ -1,0 +1,21 @@
+.About{
+    height: 80vh;
+    flex-direction: column;
+    background-color: #1abc9c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    h1{
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    p{
+        text-align: left;
+        font-size: 17px;
+    }
+}
+.divIvon{
+    font-size: 20px;
+}
+.line{
+    width: 80px;
+    height: 4px;
+}

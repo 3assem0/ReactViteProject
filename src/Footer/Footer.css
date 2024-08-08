@@ -1,0 +1,32 @@
+.footer{
+    width: 100%;
+    text-align: center;
+}
+.first{
+    background-color: #2c3e50;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   h1{
+    font-size: 1.75rem;
+    font-weight: 600;
+   }
+   .fo-o{width: 30%;}
+   .fo-t{width: 30%; 
+span{
+    font-size: 15px;
+}}
+   .fo-th{width: 30%;}
+}
+.second{
+    background-color: #1a252f;
+    text-align: center;
+}
+.icons{
+    
+    span{
+        font-size: larger;
+        padding: 12px;
+        border-radius: 50px;
+        border: 1px solid white;
+        margin-bottom: 15px;
+    }
+}
