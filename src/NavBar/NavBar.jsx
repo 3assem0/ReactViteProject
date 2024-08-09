@@ -5,10 +5,10 @@ export default function NavBar() {
 
   return (
     <>
-    <div className="nav p-7"> 
-      <div className="container px-20 flex items-center justify-between">
+    <div className="nav p-7 flex"> 
+      <div className="container nav-cont flex items-center ">
       <h1><NavLink to='/'>START FRAMEWORK</NavLink></h1>
-      <ul className="flex gap-7">
+      <ul className=" navlinks gap-7">
         <li><NavLink to='/About'>ABOUT</NavLink></li>
         <li><NavLink to='/Portfolio'>PORTFOLIO</NavLink></li>
         <li><NavLink to='/Contact'>CONTACT</NavLink></li>

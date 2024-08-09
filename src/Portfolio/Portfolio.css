@@ -20,8 +20,12 @@
     width: 80px;
     height: 4px;
 }
-.container{
+.por-cont{
     flex-wrap: wrap;
+    width: 100%;
+    /* background-color: aqua; */
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
 }
 .image {
     display: block;
@@ -65,4 +69,22 @@
 }
 .windo:hover .overlay {
     opacity: 1;
+}
+@media screen and (max-width:486px) {
+    .windo{
+        width:90% !important;
+    }
+    .por-cont{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+@media screen and (max-width:768px) {
+    .windo{
+        width:45%;
+    }
+    .por-cont{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }

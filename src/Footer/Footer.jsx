@@ -10,8 +10,8 @@ export default function Footer() {
   return (
     <>
       <div className="footer">
-        <div className="first p-24 ">
-          <div className="container py-1 flex items-center justify-between">
+        <div className="first ">
+          <div className="container first-footer py-1 flex items-center justify-between">
             <div className="fo-o text-center">
               <h1>LOCATION</h1>
               <p>2215 John Daniel Drive</p>

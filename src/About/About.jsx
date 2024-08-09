@@ -11,7 +11,7 @@ export default function About() {
           <FaStar />
           <div className="line bg-white"></div>
       </div>
-     <div className="para px-36 flex">
+     <div className="para flex">
      <p className="p-4">Freelancer is a free bootstrap theme created by Route. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
      <p className="p-4">Freelancer is a free bootstrap theme created by Route. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
      </div>

@@ -17,7 +17,7 @@ export default function Home() {
           <FaStar />
           <div className="line bg-white"></div>
         </div>
-      <p className="mb-4">Graphic Artist - Web Designer - Illustrator</p>
+      <p className="py-4">Graphic Artist - Web Designer - Illustrator</p>
       </div> 
     </>
   )

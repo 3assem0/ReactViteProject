@@ -12,10 +12,41 @@
         font-size: 17px;
     }
 }
+.para{
+    padding-left: 9rem;
+    padding-right: 9rem;
+}
 .divIvon{
     font-size: 20px;
 }
 .line{
     width: 80px;
     height: 4px;
+}
+@media screen and (max-width:1024px) {
+    .para{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media screen and (max-width:430px) {
+  
+    .About{
+        height: 100%;
+        flex-direction: column;
+        background-color: #1abc9c;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        h1{
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        p{
+            text-align: left;
+            font-size: 15px;
+        }
+    }
+    .para{
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
